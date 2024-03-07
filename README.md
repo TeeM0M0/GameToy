@@ -23,3 +23,26 @@ Sur la page light-out , nous avons accès au tableau de jeu avec un compteur de 
 le plateau et un autre pour reinitialiser le jeu.
 
 ![partie1](lightout.png)
+
+## Les fichiers
+
+### plateau.dart 
+
+Plateau est une classe qui sert pour créer des plateaux de taille différante.
+Elle possède 2 attributs privés _taille qui sert à savoir la taille du plateau et _plateau qui est une variable qui sauvegarde le plateau sous forme de liste.
+
+### player.dart 
+
+Player est une classe qui sert pour créer des joueurs.
+Elle possède 3 attributs privés _nom qui stock le nom de l'utilisateur , _nbVictoire qui sert à savoir le nombre de victoire du joueur et _nbCoup qui sert à savoir le coup du victoire du joueur.
+
+
+### morpion_game.dart 
+
+MorpionG est une classe qui sert pour créer une partie de morpion.
+Elle possède 4 attributs privés _plateau qui stock le plateau de jeu , _joueur1 qui stock les données du joueur 1 , _joueur2 qui stock les données du joueur 2 et _tour qui sert à savoir le nombre de tour de la partie.
+
+### lightout_game.dart 
+
+LightoutG est une classe qui sert pour créer une partie de light-out.
+Elle possède 4 attributs privés _plateau qui stock le plateau de jeu , _joueur1 qui stock les données du joueur 1  et _tour qui sert à savoir le nombre de tour de la partie.
