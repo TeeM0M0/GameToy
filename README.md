@@ -16,3 +16,10 @@ Sur la page morpion , nous avons accès au tableau de jeu avec un compteur de vi
 le plateau et un autre pour reinitialiser le jeu.
 
 ![partie1](morpion.PNG)
+
+### Page light-out :
+
+Sur la page light-out , nous avons accès au tableau de jeu avec un compteur de coups joué , un compteur pour les victoire et deux boutons , 1 pour reinitialiser 
+le plateau et un autre pour reinitialiser le jeu.
+
+![partie1](lightout.png)
