@@ -1,16 +1,18 @@
-# gametoyfinal
+# GameToy
 
-A new Flutter project.
+Paradice est une application codée en Flutter dans le cadre de mes études en BTS SIO option SLAM. 
+Cette application permet de jouer à des jeux , comme le morpion ou le light-out.
 
-## Getting Started
+## Fonctionnement
 
-This project is a starting point for a Flutter application.
+L'application démarre sur un splash Screen de 3 s, on est ensuite redirigé sur la page d'accueil sur laquelle se trouvent les boutons pour accéder 
+aux jeux soit le morpion ou le light-out. Et un menu déroulant  qui amène aux même autres pages.
 
-A few resources to get you started if this is your first Flutter project:
+![partie1](partie1.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Page morpion :
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Sur la page morpion , nous avons accès au tableau de jeu avec un compteur de victoire pour les deux joueurs et deux boutons , 1 pour reinitialiser 
+le plateau et un autre pour reinitialiser le jeu.
+
+![partie1](morpion.png)
